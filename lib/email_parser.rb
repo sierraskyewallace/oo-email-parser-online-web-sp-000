@@ -11,6 +11,6 @@ class EmailAddressParser
   
   def parse 
     
-  addresses.split(",").join.split
+  addresses.split(",").join.split.uniq
 end
 end
