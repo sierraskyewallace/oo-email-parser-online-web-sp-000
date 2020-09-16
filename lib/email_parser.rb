@@ -13,3 +13,4 @@ class EmailAddressParser
     
   addresses.split(",").join.split
 end
+end
